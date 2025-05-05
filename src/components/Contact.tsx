@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -15,18 +14,18 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="section-padding bg-arihant-gray/50">
+    <section id="contact" className="p-4 sm:p-8 bg-arihant-gray/50">
       <div className="container mx-auto">
         <h2 className="section-title text-center">Contact Us</h2>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-8 mt-6 sm:mt-12">
           {/* Office Locations */}
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             <Card>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold text-arihant-secondary mb-4">📍 {ahmedabadOffice1.name}</h3>
+              <CardContent className="p-4 sm:p-6">
+                <h3 className="text-xl font-semibold text-arihant-secondary mb-2 sm:mb-4">📍 {ahmedabadOffice1.name}</h3>
                 <p className="text-gray-700">{ahmedabadOffice1.address}</p>
-                <div className="mt-4 flex justify-end">
+                <div className="mt-2 sm:mt-4 flex justify-end">
                   <Button variant="outline" className="text-arihant-primary border-arihant-primary">
                     <a 
                       href={`https://www.google.com/maps/search/${encodeURIComponent(ahmedabadOffice1.address)}`}
@@ -41,10 +40,10 @@ export const Contact = () => {
             </Card>
 
             <Card>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold text-arihant-secondary mb-4">📍 {ahmedabadOffice2.name}</h3>
+              <CardContent className="p-4 sm:p-6">
+                <h3 className="text-xl font-semibold text-arihant-secondary mb-2 sm:mb-4">📍 {ahmedabadOffice2.name}</h3>
                 <p className="text-gray-700">{ahmedabadOffice2.address}</p>
-                <div className="mt-4 flex justify-end">
+                <div className="mt-2 sm:mt-4 flex justify-end">
                   <Button variant="outline" className="text-arihant-primary border-arihant-primary">
                     <a 
                       href={`https://www.google.com/maps/search/${encodeURIComponent(ahmedabadOffice2.address)}`}
@@ -62,11 +61,11 @@ export const Contact = () => {
           {/* Contact Information and Form */}
           <div>
             <Card className="h-full">
-              <CardContent className="p-6 h-full flex flex-col">
-                <div className="space-y-6 mb-6">
+              <CardContent className="p-4 sm:p-6 h-full flex flex-col">
+                <div className="space-y-4 sm:space-y-6 mb-4 sm:mb-6">
                   <h3 className="text-xl font-semibold text-arihant-secondary">Get in Touch</h3>
                   
-                  <div className="flex items-start space-x-3">
+                  <div className="flex items-start space-x-2 sm:space-x-3">
                     <span className="text-arihant-primary">📧</span>
                     <div>
                       <p className="font-medium">Email</p>
@@ -79,7 +78,7 @@ export const Contact = () => {
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-3">
+                  <div className="flex items-start space-x-2 sm:space-x-3">
                     <span className="text-arihant-primary">📞</span>
                     <div>
                       <p className="font-medium">Phone</p>
@@ -94,8 +93,7 @@ export const Contact = () => {
                 </div>
                 
                 <div className="mt-auto">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4">
                     
                   </div>
                 </div>

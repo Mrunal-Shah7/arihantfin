@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -38,11 +37,11 @@ export const Services = () => {
   ];
 
   return (
-    <section id="services" className="section-padding bg-arihant-gray/50">
+    <section id="services" className="p-4 sm:p-8 bg-arihant-gray/50">
       <div className="container mx-auto">
         <h2 className="section-title text-center">Our Services</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 mt-6 sm:mt-12">
           {/* Loan Processing Card */}
           <Card className="shadow-md hover:shadow-lg transition-shadow">
             <CardHeader className="bg-arihant-primary text-white rounded-t-lg">
@@ -51,10 +50,10 @@ export const Services = () => {
                 From document collection to final disbursement
               </CardDescription>
             </CardHeader>
-            <CardContent className="pt-6 space-y-6">
+            <CardContent className="pt-4 sm:pt-6 space-y-4 sm:space-y-6">
               <div>
-                <h4 className="font-semibold text-arihant-secondary mb-2">Retail Loans We Handle:</h4>
-                <ul className="list-disc list-inside space-y-1 text-gray-700">
+                <h4 className="font-semibold text-arihant-secondary mb-1 sm:mb-2">Retail Loans We Handle:</h4>
+                <ul className="list-disc list-inside space-y-0.5 sm:space-y-1 text-gray-700">
                   {loanServices.map((service, index) => (
                     <li key={index}>{service}</li>
                   ))}
@@ -62,8 +61,8 @@ export const Services = () => {
               </div>
               
               <div>
-                <h4 className="font-semibold text-arihant-secondary mb-2">Services Include:</h4>
-                <ul className="list-disc list-inside space-y-1 text-gray-700">
+                <h4 className="font-semibold text-arihant-secondary mb-1 sm:mb-2">Services Include:</h4>
+                <ul className="list-disc list-inside space-y-0.5 sm:space-y-1 text-gray-700">
                   {loanProcessingServices.map((service, index) => (
                     <li key={index}>{service}</li>
                   ))}
@@ -80,9 +79,9 @@ export const Services = () => {
                 Clear, compliant, and accurate financial records
               </CardDescription>
             </CardHeader>
-            <CardContent className="pt-6">
-              <h4 className="font-semibold text-arihant-secondary mb-2">Our Expertise:</h4>
-              <ul className="list-disc list-inside space-y-1 text-gray-700">
+            <CardContent className="pt-4 sm:pt-6">
+              <h4 className="font-semibold text-arihant-secondary mb-1 sm:mb-2">Our Expertise:</h4>
+              <ul className="list-disc list-inside space-y-0.5 sm:space-y-1 text-gray-700">
                 {accountingServices.map((service, index) => (
                   <li key={index}>{service}</li>
                 ))}
@@ -98,9 +97,9 @@ export const Services = () => {
                 Personalized, data-driven consulting
               </CardDescription>
             </CardHeader>
-            <CardContent className="pt-6">
-              <h4 className="font-semibold text-arihant-secondary mb-2">We Offer:</h4>
-              <ul className="list-disc list-inside space-y-1 text-gray-700">
+            <CardContent className="pt-4 sm:pt-6">
+              <h4 className="font-semibold text-arihant-secondary mb-1 sm:mb-2">We Offer:</h4>
+              <ul className="list-disc list-inside space-y-0.5 sm:space-y-1 text-gray-700">
                 {advisoryServices.map((service, index) => (
                   <li key={index}>{service}</li>
                 ))}
