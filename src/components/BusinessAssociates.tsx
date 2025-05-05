@@ -35,7 +35,7 @@ export const BusinessAssociates = () => {
         {/* Associate 1 */}
         <div className="bg-white border border-gray-200 rounded-md p-4 text-center shadow-sm hover:border-arihant-primary hover:shadow-md transition-all">
           <img
-            src="/public/hdfc.jpeg" // Adjust the path to your icon image
+            src="https://github.com/Mrunal-Shah7/arihantfin/blob/main/public/hdfc.jpeg?raw=true" // Adjust the path to your icon image
             alt="HDFC Bank Icon"
             className="w-8 h-8 mx-auto mb-2 object-contain"
           />
@@ -45,7 +45,7 @@ export const BusinessAssociates = () => {
         {/* Associate 2 */}
         <div className="bg-white border border-gray-200 rounded-md p-4 text-center shadow-sm hover:border-arihant-primary hover:shadow-md transition-all">
           <img
-            src="/public/icici.png" // Adjust the path to your icon image
+            src="https://github.com/Mrunal-Shah7/arihantfin/blob/main/public/icici.png?raw=true" // Adjust the path to your icon image
             alt="ICICI Bank Icon"
             className="w-8 h-8 mx-auto mb-2 object-contain"
           />
@@ -55,7 +55,7 @@ export const BusinessAssociates = () => {
         {/* Associate 3 */}
         <div className="bg-white border border-gray-200 rounded-md p-4 text-center shadow-sm hover:border-arihant-primary hover:shadow-md transition-all">
           <img
-            src="/public/axis.png" // Adjust the path to your icon image
+            src="https://github.com/Mrunal-Shah7/arihantfin/blob/main/public/axis.png?raw=true" // Adjust the path to your icon image
             alt="Axis Bank Icon"
             className="w-8 h-8 mx-auto mb-2 object-contain"
           />
