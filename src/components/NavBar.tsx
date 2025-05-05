@@ -35,7 +35,7 @@ export const NavBar = ({ activeSection }: NavBarProps) => {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
           <a href="#home" className="flex items-center" onClick={() => scrollToSection("home")}>
-            <img src="./public/0ba77acb-85f2-4b31-b5c8-fff033431459.png" alt="Arihant Finance Solution" className="h-12" />
+            <img src="/public/logo.png" alt="Arihant Finance Solution" className="h-12" />
           </a>
         </div>
 
