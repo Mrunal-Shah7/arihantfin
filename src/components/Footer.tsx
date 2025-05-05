@@ -20,7 +20,7 @@ export const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/0ba77acb-85f2-4b31-b5c8-fff033431459.png" 
+                src="https://github.com/Mrunal-Shah7/arihantfin/blob/main/public/logo.png?raw=true" 
                 alt="Arihant Finance Solution Logo" 
                 className="h-12 bg-white p-1 rounded-md"
               />
