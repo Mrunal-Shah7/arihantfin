@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-
+import Image from "@/components/images";
 export const Hero = () => {
   const scrollToContact = () => {
     const element = document.getElementById("contact");
@@ -51,11 +51,16 @@ export const Hero = () => {
                 <div className="absolute top-0 -right-4 w-72 h-72 bg-arihant-primary/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
                 <div className="absolute -bottom-8 left-20 w-72 h-72 bg-arihant-secondary/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
                 <div className="relative">
-                  <img
+                  {/* <img
                     src="public/logo.png"
                     alt="Arihant Finance Solution"
                     className="w-full p-8"
-                  />
+                  /> */}
+                  <Image
+                    url="public/hero.png"
+                    alt="Arihant Finance Solution Hero Image"
+                    className="w-full p-8"
+                    />
                 </div>
               </div>
             </div>
