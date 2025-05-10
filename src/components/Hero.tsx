@@ -52,7 +52,7 @@ export const Hero = () => {
                 <div className="absolute -bottom-8 left-20 w-72 h-72 bg-arihant-secondary/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
                 <div className="relative">
                   <img
-                    src="./public/logo.png"
+                    src="public/logo.png"
                     alt="Arihant Finance Solution"
                     className="w-full p-8"
                   />
