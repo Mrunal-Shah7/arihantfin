@@ -26,6 +26,12 @@ export const Services = () => {
     "TDS management",
     "Profit & Loss Statements",
     "Balance Sheets and cash flow analysis",
+    "External Rating Management",
+    "Structuring of Debt ",
+    "Management Consultancy",
+    "Financial Structuring",
+    "Project Finance",
+    "Retail Loans - Home Loans Mortgage Loans Business Loans LAP and LAS"
   ];
 
   const advisoryServices = [
