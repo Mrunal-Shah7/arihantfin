@@ -34,7 +34,7 @@ export const BusinessAssociates = () => {
                 {/* Associate 1 */}
                 <div className="bg-white border border-gray-200 rounded-md p-2 sm:p-4 text-center shadow-sm hover:border-arihant-primary hover:shadow-md transition-all">
                   <img
-                    src="./public/hdfc.jpeg"
+                    src="./assets/hdfc.jpeg"
                     alt="HDFC Bank Icon"
                     className="w-8 h-8 mx-auto mb-2 object-contain"
                   />
@@ -44,7 +44,7 @@ export const BusinessAssociates = () => {
                 {/* Associate 2 */}
                 <div className="bg-white border border-gray-200 rounded-md p-2 sm:p-4 text-center shadow-sm hover:border-arihant-primary hover:shadow-md transition-all">
                   <img
-                    src="./public/icici.png"
+                    src="./assets/icici.png"
                     alt="ICICI Bank Icon"
                     className="w-8 h-8 mx-auto mb-2 object-contain"
                   />
@@ -54,7 +54,7 @@ export const BusinessAssociates = () => {
                 {/* Associate 3 */}
                 <div className="bg-white border border-gray-200 rounded-md p-2 sm:p-4 text-center shadow-sm hover:border-arihant-primary hover:shadow-md transition-all">
                   <img
-                    src="./public/axis.png"
+                    src="./assets/axis.png"
                     alt="Axis Bank Icon"
                     className="w-8 h-8 mx-auto mb-2 object-contain"
                   />

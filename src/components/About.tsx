@@ -71,7 +71,7 @@ export const About = () => {
             {/* Leader 1 */}
             <div className="border border-gray-200 rounded-lg p-4 sm:p-6 text-center hover:border-arihant-primary transition-colors">
               <img
-                src="./public/RushabhShah.jpg"
+                src="./assets/RushabhShah.jpg"
                 alt="Rushabh Shah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
@@ -82,7 +82,7 @@ export const About = () => {
             {/* Leader 2 */}
             <div className="border border-gray-200 rounded-lg p-4 sm:p-6 text-center hover:border-arihant-primary transition-colors">
               <img
-                src="./public/AshishShah.jpg"
+                src="./assets/AshishShah.jpg"
                 alt="Ashish Shah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
@@ -93,7 +93,7 @@ export const About = () => {
             {/* Leader 3 */}
             <div className="border border-gray-200 rounded-lg p-4 sm:p-6 text-center hover:border-arihant-primary transition-colors">
               <img
-                src="/assets/images/miti-shah.jpg"
+                src="./assets/miti-shah.jpg"
                 alt="Miti Shah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
@@ -104,7 +104,7 @@ export const About = () => {
             {/* Leader 4 */}
             <div className="border border-gray-200 rounded-lg p-4 sm:p-6 text-center hover:border-arihant-primary transition-colors">
               <img
-                src="./public/AnkitMehta.jpg"
+                src="./assets/AnkitMehta.jpg"
                 alt="Ankit Mehta"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
