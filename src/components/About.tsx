@@ -71,7 +71,7 @@ export const About = () => {
             {/* Leader 1 */}
             <div className="border border-gray-200 rounded-lg p-4 sm:p-6 text-center hover:border-arihant-primary transition-colors">
               <img
-                src="/assets/images/rushabh-shah.jpg"
+                src="./public/RushabhShah.jpg"
                 alt="Rushabh Shah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
@@ -82,7 +82,7 @@ export const About = () => {
             {/* Leader 2 */}
             <div className="border border-gray-200 rounded-lg p-4 sm:p-6 text-center hover:border-arihant-primary transition-colors">
               <img
-                src="/assets/images/ashish-shah.jpg"
+                src="./public/AshishShah.jpg"
                 alt="Ashish Shah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
@@ -93,17 +93,6 @@ export const About = () => {
             {/* Leader 3 */}
             <div className="border border-gray-200 rounded-lg p-4 sm:p-6 text-center hover:border-arihant-primary transition-colors">
               <img
-                src="/assets/images/ankit-shah.jpg"
-                alt="Ankit Shah"
-                className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-              />
-              <h4 className="text-lg font-semibold text-arihant-secondary">Ankit Shah</h4>
-              <p className="text-gray-600">Regional Head, Mumbai</p>
-            </div>
-
-            {/* Leader 4 */}
-            <div className="border border-gray-200 rounded-lg p-4 sm:p-6 text-center hover:border-arihant-primary transition-colors">
-              <img
                 src="/assets/images/miti-shah.jpg"
                 alt="Miti Shah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
@@ -112,10 +101,10 @@ export const About = () => {
               <p className="text-gray-600">Head of Operations Support</p>
             </div>
 
-            {/* Leader 5 */}
+            {/* Leader 4 */}
             <div className="border border-gray-200 rounded-lg p-4 sm:p-6 text-center hover:border-arihant-primary transition-colors">
               <img
-                src="/assets/images/ankit-mehta.jpg"
+                src="./public/AnkitMehta.jpg"
                 alt="Ankit Mehta"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />

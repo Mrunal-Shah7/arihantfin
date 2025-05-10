@@ -34,7 +34,7 @@ export const NavBar = ({ activeSection }: NavBarProps) => {
       <nav className="container mx-auto px-3 sm:px-4 py-3 sm:py-4 flex items-center justify-between">
         <div className="flex items-center">
           <a href="#home" className="flex items-center" onClick={() => scrollToSection("home")}>
-            <img src="https://github.com/Mrunal-Shah7/arihantfin/blob/main/public/logo.png?raw=true" alt="Arihant Finance Solution" className="h-12" />
+            <img src="./public/logo.png" alt="Arihant Finance Solution" className="h-12" />
           </a>
         </div>
 
@@ -120,7 +120,7 @@ export const NavBar = ({ activeSection }: NavBarProps) => {
           </svg>
         </Button>
 
-        <style jsx>{`
+        <style>{`
           .hamburger-icon .hamburger-line {
             transition: all 0.3s ease;
           }
